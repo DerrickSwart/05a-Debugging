@@ -100,7 +100,7 @@ def run_test_broken_1():
 
 
 # -----------------------------------------------------------------------------
-# TODO: 3. Follow the INSTRUCTIONS AT THE TOP OF THIS MODULE
+# DONE: 3. Follow the INSTRUCTIONS AT THE TOP OF THIS MODULE
 #          to correct the mistake(s) in the following function.
 # -----------------------------------------------------------------------------
 def broken_1(m):
@@ -122,12 +122,12 @@ def broken_1(m):
     #    **  For full credit you must appropriately
     #    **  use (call) the   is_prime   function that is DEFINED ABOVE.
     count = 0
-    for k in range(2 * m ):
-        prime = m + k
+    for k in range(m +2):
+        prime = k + m
 
-        if is_prime(prime) == True:
+        if is_prime(prime) :
             count = count + 1
-        print(k, prime, count)
+       # print(k, prime, count)
     return count
 
 
